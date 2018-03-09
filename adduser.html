@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>بيانات مستخدم</title>
+		<!-- Bootstrap -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	   	<!-- Css -->
+	   	<link rel="stylesheet" href="css/style.css" >
+	   	<link rel="stylesheet" href="css/normalize.css">
+	    <link rel="stylesheet" href="css/font-awesome.min.css">
+	    <link rel="shortcut icon" href="img/bb.gif" type="image/x-icon">
+	</head>
+	<body>
+		<div class="add">
+			<div class="container">
+				
+			    <div class="row">
+			        <div class="input-field col s4">
+			          <input disabled value="أسم المستخدم" id="disabled" type="text" class="validate">
+			          <label for="disabled" style="color: #fff; padding: 3px; font-size: 18px;">الأسم</label>
+			        </div>
+			    </div>
+			    <h2 style="text-align: center; margin-bottom: 30px; color: #fff; font-weight: 600"> بيانات مستخدم</h2>
+				<form>
+					<div class="form-row">
+					    <div class="form-group col-md-6" style="text-align: right; color: #fff;">
+						   	<label for="inputAccess">الصلاحيات</label>
+						    <select class="form-control" id="inputAccess" style="text-align: right;" >
+						      <option style="text-align: right;"> أختر الصلاحية</option>
+						      <option>مشرف</option>
+						      <option>مهندس</option>
+						      <option>مقاول</option>
+						      <option>مشرف</option>
+						      <option>مهندس</option>
+						      <option>مقاول</option>
+						    </select>
+				    	</div>
+					    <div class="form-group col-md-6" style="text-align: right; color: #fff;">
+					      <label for="inputName">الأسم</label>
+					      <input type="text" class="form-control" id="inputName" placeholder="الأسم" style="text-align: right;">
+					    </div>
+					</div>
+						
+					<ul class="collapsible" data-collapsible="accordion" style="text-align: right; padding: 6px 12px;">
+					    <li style="color: #fff;">
+					      <div class="collapsible-header"><h3> المشاريع </h3></div>
+					      <div class="collapsible-body">
+							<div class="form-check">
+							  <label class="form-check-label" for="defaultCheck1">حفر </label>
+							  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							</div>
+
+							<div class="form-check">
+							  <label class="form-check-label" for="defaultCheck2">برج</label>
+							  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label" for="defaultCheck3"> مصنع </label>
+							  <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label" for="defaultCheck6"> شركة</label>
+							  <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label" for="defaultCheck4"> رصف </label>
+							  <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label" for="defaultCheck5"> تشجير </label>
+							  <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label" for="defaultCheck2">برج</label>
+							  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label" for="defaultCheck3"> مصنع </label>
+							  <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label" for="defaultCheck6"> شركة</label>
+							  <input class="form-check-input" type="checkbox" value="" id="defaultCheck6">
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label" for="defaultCheck4"> رصف </label>
+							  <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+							</div>
+							<div class="form-check">
+							  <label class="form-check-label" for="defaultCheck5"> تشجير </label>
+							  <input class="form-check-input" type="checkbox" value="" id="defaultCheck5">
+							</div>							
+
+					      </div>
+					    </li>
+					</ul>
+
+					  <div class="form-group row">
+					    <div class="col-sm-10" style="margin: 20px auto; margin-left: 15px;">
+					    	<button type="submit" class="btn btn-primary"> إلغاء </button>
+					        <button type="submit" class="btn btn-primary"> حفظ </button>
+					      
+					    </div>
+					  </div>  
+				</form>
+
+		
+
+		<script src="js/jquery-2.2.0.min.js"></script>
+		<script src="js/materialize.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
