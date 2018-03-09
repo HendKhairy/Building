@@ -1003,3 +1003,18 @@ body{
     border-color: #1a0e0e;
     font-size: 22px;
  }
+
+.home
+{
+	max-width: 1250px;
+	max-height: 3000px;
+	background-image: url(../img/background.jpg);
+	margin: 50px auto;
+	padding: 50px 40px ;
+	
+}
+.home h2{
+	padding-bottom: 30px;	
+	cursor: pointer;
+	color: #fff;	
+}
